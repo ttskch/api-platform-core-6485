@@ -7,7 +7,7 @@
         "php": ">=8.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "api-platform/core": "^3.3",
+        "api-platform/core": "dev-feat/jsonschema-jsonld-required#a42ca678807bada009716f998786dbe25bb99805",
         "doctrine/dbal": "^3",
         "doctrine/doctrine-bundle": "^2.12",
         "doctrine/doctrine-migrations-bundle": "^3.3",
@@ -78,5 +78,11 @@
             "allow-contrib": false,
             "require": "7.1.*"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ttskch/api-platform-core"
+        }
+    ]
 }
