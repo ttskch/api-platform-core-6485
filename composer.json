@@ -68,6 +68,12 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
+        ],
+        "test": [
+            "rm -f var/data_test.db",
+            "bin/console doctrine:database:create --env=test",
+            "bin/console doctrine:schema:update --env=test --force",
+            "vendor/bin/simple-phpunit"
         ]
     },
     "conflict": {
