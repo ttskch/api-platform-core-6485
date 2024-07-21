@@ -7,7 +7,7 @@
         "php": ">=8.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "api-platform/core": "dev-feat/jsonschema-jsonld-required#a42ca678807bada009716f998786dbe25bb99805",
+        "api-platform/core": "dev-feat/jsonschema-jsonld-required#23af961845008f9ef741ff68f57eeed97b87d475",
         "doctrine/dbal": "^3",
         "doctrine/doctrine-bundle": "^2.12",
         "doctrine/doctrine-migrations-bundle": "^3.3",

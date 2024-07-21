@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb647ce90ddfbc86834e42e313f626ca",
+    "content-hash": "c7fe7f39d7816f8856d84d71d7ccadf2",
     "packages": [
         {
             "name": "api-platform/core",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ttskch/api-platform-core.git",
-                "reference": "a42ca678807bada009716f998786dbe25bb99805"
+                "reference": "23af961845008f9ef741ff68f57eeed97b87d475"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ttskch/api-platform-core/zipball/a42ca678807bada009716f998786dbe25bb99805",
-                "reference": "a42ca678807bada009716f998786dbe25bb99805",
+                "url": "https://api.github.com/repos/ttskch/api-platform-core/zipball/23af961845008f9ef741ff68f57eeed97b87d475",
+                "reference": "23af961845008f9ef741ff68f57eeed97b87d475",
                 "shasum": ""
             },
             "require": {
@@ -198,7 +198,7 @@
             "support": {
                 "source": "https://github.com/ttskch/api-platform-core/tree/feat/jsonschema-jsonld-required"
             },
-            "time": "2024-07-20T15:55:21+00:00"
+            "time": "2024-07-21T15:43:29+00:00"
         },
         {
             "name": "doctrine/cache",
